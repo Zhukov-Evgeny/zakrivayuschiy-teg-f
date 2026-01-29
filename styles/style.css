@@ -72,6 +72,7 @@
 .card__heading-text {
   font: var(--text-heading);
   color: var(--color-main);
+  font-variation-settings: var(--font-var-accent);
 }
 
 .card__image-container {
@@ -154,6 +155,8 @@
 
 .card__descriprion {
   font: var(--text-main);
+  font-variation-settings: var(--font-var-normal);
+  color: var(--color-main);
 }
 
 .save {
@@ -245,6 +248,8 @@ button {
   border: none;
   padding: 0;
   height: 38px;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
 }
 
 .card__like-button {
@@ -266,10 +271,6 @@ button {
   outline: none;
 }
 
-.card__icon-button {
-  border: 2px solid transparent;
-  transition: border 0.3s ease;
-}
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--color-main);
