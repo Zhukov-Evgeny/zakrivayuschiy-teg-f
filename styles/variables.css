@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+
+  --ff-main: 'Inter', sans-serif;
+  --ff-second: 'PressStart2P', sans-serif;
+
+  --fw-normal: 410;
+  --fw-accent: 715;
+
+  --text-main: var(--fw-normal) 18px/21px var(--ff-main);
+  --text-heading: var(--fw-accent) 18px/100% var(--ff-main);
+  --color-main: #000;
+
+  --contour-color: var(--color-main);
+  --animation-fill-color: #FF0000;
+}
